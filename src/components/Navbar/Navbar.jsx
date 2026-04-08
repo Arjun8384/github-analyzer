@@ -1,4 +1,4 @@
-import { useTheme } from "../context/ThemeContext.jsx";
+import { useTheme } from "../../../context/ThemeContext";
 import "./Navbar.css";
 
 const Navbar = ({ setMode, mode }) => {
