@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+  background-size: fill;
+  background-position: center;
+}
+
+/* Light Theme */
+body.light {
+  background-image: url("/images/light-bg.jpg");
+  color: #000;
+}
+
+/* Dark Theme */
+body.dark {
+  background-image: url("/images/dark-bg.jpg");
+  color: #fff;
+}
+
+/* Common Layout */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}

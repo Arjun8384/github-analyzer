@@ -1,0 +1,104 @@
+/* =========================
+   THEME VARIABLES
+========================= */
+
+/* Light Theme */
+body.light {
+  --bg-overlay: rgba(255, 255, 255, 0.85);
+  --text-color: #111;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --border-color: #ddd;
+  --button-bg: #222;
+  --button-text: #fff;
+
+  background-image: url("/images/light-bg.jpg");
+}
+
+/* Dark Theme */
+body.dark {
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+  --text-color: #f5f5f5;
+  --card-bg: rgba(0, 0, 0, 0.7);
+  --border-color: #444;
+  --button-bg: #f5f5f5;
+  --button-text: #111;
+
+  background-image: url("/images/dark-bg.jpg");
+}
+
+/* =========================
+   GLOBAL USAGE
+========================= */
+
+body {
+  color: var(--text-color);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+  background: var(--bg-overlay);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+}
+
+/* =========================
+   CARDS (Profile + Repo + Battle)
+========================= */
+
+.profile-card,
+.repo-card,
+.battle-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  transition: 0.3s ease;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+  background: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+input {
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* =========================
+   WINNER / LOSER (Battle Mode)
+========================= */
+
+.winner {
+  border: 2px solid limegreen;
+  box-shadow: 0 0 10px limegreen;
+}
+
+.loser {
+  border: 2px solid crimson;
+  box-shadow: 0 0 10px crimson;
+}
