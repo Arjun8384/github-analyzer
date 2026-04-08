@@ -1,4 +1,4 @@
-import { useTheme } from "C:/Users/91746/Desktop/DESKTOP/PRODESK/Mission3/context/ThemeContext.jsx";
+import { useTheme } from "../context/ThemeContext.jsx";
 import "./Navbar.css";
 
 const Navbar = ({ setMode, mode }) => {
