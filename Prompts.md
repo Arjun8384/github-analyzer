@@ -53,3 +53,22 @@ UI: Highlight the "Winner" card in Green and the "Loser" in Red.
 7. what to do with this parse error and why is it here: [PARSE_ERROR] Error: Unexpected token ╭─[ src/utils/formatDate.js:55:5 ] │ 55 │ <div className="container"> │ ┬ │ ╰── ────╯
 
 8. for this project, suggest a better one or two word name instead of "github analyzer"
+
+9. "npm run build" giving error in vercel deployment. here is the error log, study it carefully and tell me the issue:
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Cloning github.com/Arjun8384/github-analyzer (Branch: main, Commit: 394a755)
+Previous build caches not available.
+Cloning completed: 342.000ms
+Running "vercel build"
+Vercel CLI 50.38.2
+Installing dependencies...
+added 153 packages in 3s
+37 packages are looking for funding
+  run `npm fund` for details
+Running "npm run build"
+> mission3@0.0.0 build
+> vite build
+
+10. now as issues resolved, vs code termina cmd for pushing and commiting changes in files
+11. 
